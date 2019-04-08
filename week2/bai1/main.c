@@ -140,6 +140,7 @@ void danhsachlienketdon()
 void main()
 {
     danhsachlienketdon();
+    getch();
 }
 
 
