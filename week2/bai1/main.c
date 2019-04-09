@@ -15,6 +15,7 @@ void themvaodau(int i )
     struct node *p;
     p=(struct node* )malloc(sizeof(struct node));
     p->data=i;
+    p->next=NULL;
     if(pdau==NULL)
     {
         pdau=pcuoi=p;
@@ -139,9 +140,11 @@ void danhsachlienketdon()
 }
 void main()
 {
-    danhsachlienketdon();
+   danhsachlienketdon();
     getch();
 }
+
+
 
 
 
